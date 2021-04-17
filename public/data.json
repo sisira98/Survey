@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Pepe",
+    "education": "UG",
+    "skills": [
+      "python"
+    ],
+    "gender": "female",
+    "phone": "7867564534",
+    "email": "abc@gmail.com"
+  }
+]
