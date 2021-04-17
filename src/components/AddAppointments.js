@@ -29,7 +29,6 @@ class AddAppointments extends Component {
       gender: '',
       phone: '',
       email: '',
-      skills: '',
       pherror: '',
       Nameerror: '',
       emailerror: '',
@@ -81,7 +80,7 @@ class AddAppointments extends Component {
         gender: this.state.gender,
         phone: this.state.phone,
         email: this.state.email,
-        skills: this.state.skills,
+        skills: this.state.selectedOption,
 
       };
 

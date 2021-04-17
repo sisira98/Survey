@@ -94,7 +94,7 @@ const ListAppointments = ({ appointments }, { updateInfo },) => {
                   this.props.updateInfo('skills', e.target.innerText, item.aptId)
                 }
               >
-                {item.skills}
+                {item.skills.map(i => i.label)}
               </span>
             </div>
 
